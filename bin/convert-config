@@ -53,7 +53,7 @@ class App extends Application
         $this->getDefinition()->addOption(new InputOption(
             '--force',
             '-f',
-            InputOption::VALUE_OPTIONAL,
+            InputOption::VALUE_NONE,
             'Do not ask if destination file already exists'
         ));
 
